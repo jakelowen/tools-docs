@@ -115,7 +115,7 @@ You can see [an example for creating subscription resolver here](/tools/graphql-
 
 Sometimes a client will want filter out specific events based on context and arguments.
 
-To do so, we can use `withFilter` helper from this package, which wraps `AsyncItrator` with a filter function, and let you control each publication for each user.
+To do so, we can use `withFilter` helper from this package, which wraps `AsyncIterator` with a filter function, and let you control each publication for each user.
 
 Let's see an example - for the `commentAdded` server-side subscription, the client want to subscribe only to comments added to a specific repo:
 
